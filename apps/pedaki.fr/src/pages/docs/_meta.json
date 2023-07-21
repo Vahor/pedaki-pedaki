@@ -1,0 +1,17 @@
+{
+  "getting-started": "Introduction",
+  "---": {
+    "type": "separator",
+    "title": "Modules"
+  },
+  "class": "Classes",
+  "----": {
+    "type": "separator",
+    "title": "Ressources"
+  },
+  "self-host": "Self-Host",
+  "migrate": "Migrer",
+  "billing": "Licenses",
+  "contribute": "Contribuer",
+  "privacy": "Privacy"
+}

@@ -1,0 +1,38 @@
+.nextra-breadcrumb div:first-of-type,
+.nextra-breadcrumb svg:first-of-type {
+  display: none;
+}
+
+aside ul li {
+  margin-top: 0.125rem !important;
+  margin-bottom: 0.125rem !important;
+}
+
+aside ul li.open.active > a,
+aside ul li.active > a {
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+html {
+  font-family:
+    var(--font-mona-sans),
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji" !important;
+}
+
+.nextra-breadcrumb div:last-of-type {
+  color: #e38845;
+  font-weight: bold;
+}

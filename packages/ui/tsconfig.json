@@ -1,5 +1,8 @@
 {
-  "extends": "tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "extends": "../../tsconfig.base.json",
+  "include": [".", ".eslintrc.js"],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "jsx": "preserve"
+  }
 }

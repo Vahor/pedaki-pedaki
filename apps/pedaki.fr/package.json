@@ -1,0 +1,44 @@
+{
+  "name": "pedaki.fr",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PedakiApp/pedaki.fr.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 8080",
+    "lint": "next lint",
+    "start": "next start",
+    "clean": "rimraf .next",
+    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "format": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.6.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.263.0",
+    "next": "^13.4.11",
+    "nextra": "^2.10.0",
+    "nextra-theme-docs": "^2.10.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^1.14.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/node": "^20.4.2",
+    "@types/prettier": "^2.7.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.6",
+    "typescript": "^5.1.6"
+  }
+}
