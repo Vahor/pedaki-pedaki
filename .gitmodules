@@ -1,0 +1,4 @@
+[submodule "apps/app"]
+	path = apps/app
+	url = git@github.com:Vahor/pedaki-app.pedaki.fr.git
+	branch = test/submodule
