@@ -37,3 +37,6 @@ yarn-error.log*
 
 .idea
 *.local
+
+**/node_modules
+**/.turbo

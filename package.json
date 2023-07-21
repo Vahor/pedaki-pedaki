@@ -5,8 +5,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "prepare": "husky install",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "typecheck": "turbo run typecheck"
   },
   "engines": {
     "node": ">=18.0.0 <19.0.0",
@@ -15,17 +15,11 @@
   "devDependencies": {
     "@turbo/gen": "^1.10.9",
     "eslint": "^8.45.0",
-    "eslint-config-custom": "workspace:*",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "rimraf": "^5.0.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.1.6"
   },
-  "packageManager": "pnpm@8.6.9",
-  "lint-staged": {
-    "*.{html,js,ts,tsx,json,yml,css,scss}": "prettier --write",
-    "*.{js,ts,tsx}": "eslint"
-  }
+  "packageManager": "pnpm@8.6.9"
 }

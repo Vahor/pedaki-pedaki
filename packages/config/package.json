@@ -1,17 +1,20 @@
 {
-  "name": "eslint-config-custom",
+  "name": "config",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "eslint-preset.js"
+  ],
   "dependencies": {
     "eslint-config-next": "^13.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-config-turbo": "^1.9.3",
     "@typescript-eslint/eslint-plugin": "6.1.0",
-    "@typescript-eslint/parser": "6.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@typescript-eslint/parser": "6.1.0",
+    "tailwindcss": "^3.3.3",
+    "mini-svg-data-uri": "^1.4.4",
+    "tailwindcss-animate": "^1.0.6"
   }
 }
